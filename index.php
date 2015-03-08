@@ -52,7 +52,7 @@
             <div class="logo"></div>
 
             <nav>
-                <ul class="navigation">
+                <ul id="navigation">
                     <li><a href="home">GALLERY</a><li>
                     <li><a href="about">ABOUT</a></li>
                     <li><a href="contact">CONTACT</a></li>
