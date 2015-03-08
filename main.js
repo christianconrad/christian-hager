@@ -2,8 +2,8 @@
 // loading screen
 $(document).ready(function(){
     setTimeout(function() {
-	$('#load_screen').fadeOut(3000);
-    }, 3000); 
+	$('#load_screen').fadeOut(800);
+    }, 800); 
 });
 
 $(document).ready(function(){
@@ -20,23 +20,10 @@ $(document).ready(function(){
 			r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
 			ga('create','UA-XXXXX-X','auto');ga('send','pageview');
 
+
 $(document).ready(
 			function(){
-				$("#click").click(function () {ul
+				$("#click").click(function () {
 					$("#copyright_show").fadeToggle (300, "linear");
 				});
 			});
-
-
-$(document).ready(function() {
-	//initial
-	$('#content').load('content/home.php');
-
-	// handle menu clicks
-	$('ul#navigation li a').click(function() {
-			var page = $(this).attr('href');
-			$('#content').load('content/' + page + '.php');
-		return false;
-	});
-});
-
