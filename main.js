@@ -22,8 +22,8 @@ $(document).ready(function(){
 
 
 $(document).ready(
-			function(){
-				$("#click").click(function () {
-					$("#copyright_show").fadeToggle (300, "linear");
-				});
-			});
+	function(){
+	$("#click").click(function () {
+	$("#copyright_show").fadeToggle (300, "linear");
+	});
+});
